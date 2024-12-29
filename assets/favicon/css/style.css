@@ -1,19 +1,27 @@
-/*Asterisk wildcard selector to override default syles added by the browser*/
+
+
+/*Google fontts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
 }
-/*General styles*/
+  .lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+/* Generic project styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /*generic project styles*/
-    color: 3a3a3a;
-
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: 3a3a3a;
+  font-family: 'Lato', sans-serif;
 }
-
 
 /*Headrer*/
 header {
