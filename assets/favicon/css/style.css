@@ -25,6 +25,9 @@ h1, h2, h3 {
   color: #252525;
 }
 
+.hidden-heading {
+  display: none;
+}
 
 
 /*Header*/
@@ -97,7 +100,7 @@ main {
       background: url("../images/hero-image.webp") no-repeat center center/cover;
       position: relative;
     }
-}
+
 
 #cover-text {
   /* Final rgba value sets the opacity so it is semi-transparent */
